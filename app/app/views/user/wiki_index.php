@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?php echo base_url(); ?>assets/js/jquery.js" type="text/javascript"></script>
     <script src="<?php echo base_url(); ?>assets/bootstrap/js/bootstrap.min.js"></script>
 
-    <title>Wiki | Admin Area | XenaPedia</title>
+    <title>Wiki | User Area | XenaPedia</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -67,13 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       
 
      
-  <form action="<?php echo base_url() ?>index.php/admin/wiki/create" method="post" enctype="multipart/form-data" name="form1" id="form">
-                        <table>
-                            
-                            <input type="submit" name="submit" value="Add new post" class="btn btn-primary">
-                            </br>
-                        </table>
-                    <?php echo form_close(); ?>
+  
                     <br>
                <h2 class="sub-header">List of all Wiki Posts</h2>
  
